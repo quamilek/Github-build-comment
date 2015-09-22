@@ -23,7 +23,7 @@
     },
     "description":              "Show your custom build information about pull request,without github webhooks.",
     "name":                     "Github build comment",
-    "version":                  "0.1",
+    "version":                  "0.2.0",
     "web_accessible_resources": ["template.html", "icon_128.png"],
     "icons": {
       "128": "icon_128.png"

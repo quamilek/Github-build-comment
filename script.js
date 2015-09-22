@@ -2,7 +2,7 @@
 
 function get_build_info(builds){
     var pr_number = $('.gh-header-number').text();
-    var repo_name = $('.js-current-repository').attr('href');
+    var repo_name = $('h1 strong a').attr('href');
     var build_info = {};
 
     builds.forEach(function(element, index, array){
